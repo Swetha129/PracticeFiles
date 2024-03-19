@@ -17,6 +17,6 @@ class PrintsNum extends Thread{
 public class PrintNumbers {
     public static void main(String[] args) {
         PrintsNum printsNum = new PrintsNum();
-        printsNum.start();
+        printsNum.start();              //PrintsNumber with 500 milliseconds delay
     }
 }
